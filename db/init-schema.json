@@ -1,0 +1,30 @@
+{
+  "schemas": [
+    {
+      "welcome": {
+        "fields": [
+          { "name": "message", "type": "text", "label": "Message" },
+          { "name": "recordId", "type": "number", "label": "Record ID" }
+        ]
+      },
+      "subscribers": {
+        "fields": [
+          { "name": "name", "type": "text", "label": "Name" },
+          { "name": "email", "type": "text", "label": "Email" },
+          { "name": "phone", "type": "text", "label": "Phone" },
+          { "name": "subscribedAt", "type": "datetime", "label": "Subscribed At" }
+        ]
+      }
+    }
+  ],
+  "records": [
+    {
+      "welcome": [
+        {
+          "message": "Hello from loombolt DB.",
+          "recordId": 1
+        }
+      ]
+    }
+  ]
+}
